@@ -60,11 +60,11 @@ int main(){
                 break;
             case 3:
                 printf("\nAdeus...");
-                exit(0);
+                terminou = 1;
                 break;
             default:
                 printf("\nIsso nao e uma opcao correta...");
-                exit(1);
+                terminou = 1;
                 break;
         }
         
